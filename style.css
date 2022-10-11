@@ -1,0 +1,51 @@
+body{
+    background-color: #FFF5EE;
+}
+.container{
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0px auto;
+    box-sizing: content-box;
+    font-size: 18px;
+}
+h2{
+    text-align: center;
+}
+i{
+    font-weight: normal;
+}
+.city{
+    display: flex;
+}
+.description{
+    text-align: justify;
+    min-width: 480px;
+}
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 480px;
+    margin: auto;
+}
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+.photo{
+    height: 320px;
+    width: 480px;
+    margin-left: 15px;
+}
+#_add, #_increase, #_reduce, #_remove {
+    font-size: large;
+    padding: 10px;
+    min-width: 130px;
+    background-color: rgb(6, 209, 250);
+    border-radius: 10px;
+    border: rgb(6, 209, 250);
+}
